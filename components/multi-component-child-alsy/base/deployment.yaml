@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-child-alsy
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-goxv-tenant/build-suite-component-update-zsth/multi-component-child-alsy@sha256:8ec5c57492072045ae5d54f6d4ffc070792bbd100dcd4bdb687d3516f6c4bdbd
         imagePullPolicy: Always
         name: container-image
         ports:
